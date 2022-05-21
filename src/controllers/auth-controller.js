@@ -47,4 +47,5 @@ export const login = async (req, reply) => {
     console.log(error);
     reply.status(500).send({ error: "Server error!" });
   }
+  
 };

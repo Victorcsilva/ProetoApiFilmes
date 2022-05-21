@@ -8,4 +8,5 @@ export default {
     preHandler: [validateRequest],
     handler: UserController.index,
   },
+  
 };

@@ -11,4 +11,5 @@ export default {
     url: "/login",
     handler: AuthController.login,
   },
+
 };
